@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: databricks_raw		 
+    catalog: dev_pruebayari
+    schema: dbt
+
+    tables:
+      - name: ventas_databricks
